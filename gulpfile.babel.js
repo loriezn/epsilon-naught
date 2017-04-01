@@ -1,5 +1,5 @@
 /**
- * Mantis Starter
+ * Epsilon Naught
  * https://github.com/loriezn/epsilon-naught
  *
  * Copyright 2016 - 2017 Lorin Zahra-Newman (@acauamontiel)
@@ -184,8 +184,8 @@ gulp.task('default', () => {
 	var startTime = Date.now();
 	runSequence('serve', 'build', 'watch', () => {
 		console.log('\x1b[42m************************************\x1b[0m\n');
-		console.log('\x1b[32m  Mantis Starter is ready to work!\x1b[0m\n');
+		console.log('\x1b[32m  Epsilon Naught is ready to work!  \x1b[0m\n');
 		console.log('\x1b[42m************************************\x1b[0m\n');
-		console.log('[\x1b[32mMantis Starter\x1b[0m]', `All finished in \x1b[35m${Date.now() - startTime} ms` ,'\x1b[0m\n');
+		console.log('[\x1b[32mEpsilon Naught\x1b[0m]', `All finished in \x1b[35m${Date.now() - startTime} ms` ,'\x1b[0m\n');
 	});
 });
