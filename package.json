@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mantis-stack/epsilon-naught.git"
+    "url": "git@github.com:loriezn/epsilon-naught.git"
   },
   "keywords": [
     "template",
@@ -17,7 +17,7 @@
     "scaffold",
     "starter"
   ],
-  "author": "Acauã Montiel <contato@acauamontiel.com.br>",
+  "author": "Lorin Zahra-Newman <mail@lorin.io>",
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.5.2",

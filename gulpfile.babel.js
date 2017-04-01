@@ -1,8 +1,8 @@
 /**
  * Mantis Starter
- * https://github.com/mantis-stack/epsilon-naught
+ * https://github.com/loriezn/epsilon-naught
  *
- * Copyright 2016 - 2017 Acauã Montiel (@acauamontiel)
+ * Copyright 2016 - 2017 Lorin Zahra-Newman (@acauamontiel)
  * Released under the MIT license (http://acaua.mit-license.org)
  */
 

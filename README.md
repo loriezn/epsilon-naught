@@ -1,6 +1,6 @@
 <img src="logo.png" width="200">
 
-Mantis Starter
+EPSILON-NAUGHT
 ==============
 
 > A modern kick-starter for front-end development packed with well-chosen tools
@@ -115,6 +115,6 @@ README.md
 License
 -------
 
-© 2016 - 2017 [Acauã Montiel](http://acauamontiel.com.br)
+© 2016 - 2017 [Lorin Zahra-Newman](http://lorin.io)
 
 [MIT License](http://acaua.mit-license.org/)
