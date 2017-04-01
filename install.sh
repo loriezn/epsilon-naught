@@ -1,10 +1,13 @@
 #!/bin/bash
+	GITADDR=git@github.com
+	GITUSER=$(git config --global --get user.name | cat)
+
 promptName() {
 	read -rp 'Project name: ' NAME
 }
 
 cloneStater() {
-	git clone git@github.com:loriezn/epsilon-naught.git "$NAME" && cd "$NAME" || exit
+	git clone $GITADDR:$GITUSER/epsilon-naught.git "$NAME" && cd "$NAME" || exit
 }
 
 setupGit() {
@@ -20,7 +23,7 @@ setupGit() {
 	read -rp 'Enter the remote upstream repository: ' REPO
 	echo "$REPO"
 
-	git init && git remote add origin "$REPO" && git remote -v
+	git init && git remote add origin "$GITADDR:$GITUSER/$REPO" && git remote -v
 }
 
 installDependencies() {
