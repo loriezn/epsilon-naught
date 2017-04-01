@@ -4,7 +4,7 @@ promptName() {
 }
 
 cloneStater() {
-	git clone https://github.com/loriezn/epsilon-naught.git "$NAME" && cd "$NAME" || exit
+	git clone git@github.com:loriezn/epsilon-naught.git "$NAME" && cd "$NAME" || exit
 }
 
 setupGit() {
