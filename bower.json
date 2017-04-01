@@ -1,8 +1,8 @@
 {
-  "name": "mantis-starter",
+  "name": "epsilon-naught",
   "version": "0.1.0",
   "authors": [
-    "Acauã Montiel <contato@acauamontiel.com.br>"
+    "Lorin Zahra-Newman <mail@lorin.io>"
   ],
   "description": "A modern kick-starter for front-end development packed with well-chosen tools",
   "main": "gulpfile.js",
@@ -10,6 +10,6 @@
     "template"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mantis-stack/mantis-starter",
+  "homepage": "https://github.com/loriezn/epsilon-naught",
   "private": true
 }

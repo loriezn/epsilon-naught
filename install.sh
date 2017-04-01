@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 promptName() {
-	read -p 'Project name: ' NAME
+	read -rp 'Project name: ' NAME
 }
 
 cloneStater() {
-	git clone https://github.com/mantis-stack/mantis-starter.git $NAME && cd $NAME
+	git clone https://github.com/mantis-stack/epsilon-naught.git "$NAME" && cd "$NAME" || exit
 }
 
 setupGit() {
@@ -12,15 +12,15 @@ setupGit() {
 
 	read -p 'Do you want to set up a remote Git repository? (Y/n) ' -n 1 -r
 	echo
-	if [[ ! $REPLY =~ ^[Yy]$ ]]
+	if [[ ! "$REPLY" =~ ^[Yy]$ ]]
 	then
 		return 0
 	fi
 
-	read -p 'Enter the remote upstream repository: ' REPO
+	read -rp 'Enter the remote upstream repository: ' REPO
 	echo "$REPO"
 
-	git init && git remote add origin $REPO && git remote -v
+	git init && git remote add origin "$REPO" && git remote -v
 }
 
 installDependencies() {

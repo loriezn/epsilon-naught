@@ -1,5 +1,5 @@
 {
-  "name": "mantis-starter",
+  "name": "epsilon-naught",
   "version": "1.2.0",
   "description": "A modern kick-starter for front-end development packed with well-chosen tools",
   "main": "gulpfile.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mantis-stack/mantis-starter.git"
+    "url": "git@github.com:mantis-stack/epsilon-naught.git"
   },
   "keywords": [
     "template",

@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Acauã Montiel -- Fullstack Developer -- @acauamontiel
+    Lorin Zahra-Newman -- Fullstack Developer -- @loriezn
 
 # TECHNOLOGY COLOPHON
 
